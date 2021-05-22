@@ -90,4 +90,9 @@ class Database:
         sql = f'SELECT infitems3 FROM collect_items WHERE items3 = "{items3}";'
         return  self.__query(sql, fetchone = True)[0]
 
+    def item_spr(self, position):
+        sql = f'SELECT information FROM guide WHERE position = "{position}";'
+        return  self.__query(sql, fetchone = True)[0]
+
+
 
