@@ -1,7 +1,7 @@
 from aiogram.dispatcher.filters import Command
 from aiogram.types import Message
 
-from keyboards.inline.cправочник import guide
+from keyboards.inline.gid import guide
 from loader import dp
 
 @dp.message_handler(Command("guide"))

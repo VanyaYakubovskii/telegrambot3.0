@@ -26,15 +26,15 @@ async def helping(dispatcher):
     await bot_help(dispatcher)
 
 async def herou(dispatcher):
-    # Выполняет команду /test
+    # Выполняет команду /herou
     await show_herou(dispatcher)
 
 async def items(dispatcher):
-    # Выполняет команду /test
+    # Выполняет команду /item
     await show_items(dispatcher)
 
 async def guide(dispatcher):
-    # Выполняет команду /test
+    # Выполняет команду /guide
     await show_guide(dispatcher)
 
 

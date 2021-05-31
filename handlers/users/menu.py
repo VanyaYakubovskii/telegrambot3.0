@@ -9,3 +9,4 @@ from loader import dp
 async def show_menu(message: Message):
     await message.answer(text="Меню информации",
                          reply_markup=choice)
+
